@@ -1,0 +1,53 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #023047;
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #219EBC;
+    font-weight: bold;
+    text-shadow: 0.5px 1px 1px #8ECAE6;
+}
+
+.nav a:hover {
+    color: #FB8500;
+}
+
+.nav a img {
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+
+}
+
+.main h1{
+    color: #023047;
+    position: absolute;
+    margin: 10rem 0 0 10rem;
+    width: 50vw;
+
+    
+}
+
+.main img {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50rem;
+}
